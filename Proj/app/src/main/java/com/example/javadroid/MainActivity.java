@@ -3,6 +3,10 @@ package com.example.javadroid;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+import com.google.android.material.textfield.TextInputEditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,8 +16,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void disable(View currentView){
+    public void disable (View currentView) {
         currentView.setEnabled(false);
-        currentView.callOnClick();
+        Button currentButton = (Button) currentView;
+        currentButton.setText("Disabled");
+        TextView currentText = (TextView) findViewById(R.id.textView); // cast is unnecessary because findViewById returns TextView type View anyways
+        currentText.setText("Button Disabled");
+    }
+
+    public void processUserText (View currentView) {
+        TextInputEditText currentUserInput = findViewById(R.id.userInput);
+        String currentUserInputText = currentUserInput.getText().toString();
+        TextView currentText = (TextView) findViewById(R.id.textView); // cast is unnecessary because findViewById returns TextView type View anyways
+        currentText.setText(currentUserInputText);
     }
 }
