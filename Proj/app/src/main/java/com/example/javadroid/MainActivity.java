@@ -1,6 +1,8 @@
 package com.example.javadroid;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -17,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void disable (View currentView) {
+    public void Disable (View currentView) {
         currentView.setEnabled(false);
         Button currentButton = (Button) currentView;
         currentButton.setText("Disabled");
@@ -25,15 +27,19 @@ public class MainActivity extends AppCompatActivity {
         currentText.setText("Button Disabled");
     }
 
-    public void processUserText (View currentView) {
+    public void ProcessUserText (View currentView) {
         TextInputEditText currentUserInput = findViewById(R.id.userInput);
         String currentUserInputText = currentUserInput.getText().toString();
         TextView currentText = (TextView) findViewById(R.id.textView); // cast is unnecessary because findViewById returns TextView type View anyways
         currentText.setText(currentUserInputText);
-        displayAlertMessage(currentUserInputText);
+        DisplayAlertMessage(currentUserInputText);
     }
 
-    public void displayAlertMessage (String msg) {
+    public void DisplayAlertMessage (String msg) {
         Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
     }
+
+//    public void LaunchNewActivity (View currentView) {
+//        Intent i = new Intent(this, NewActivity.class);
+//    }
 }
