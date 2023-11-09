@@ -39,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
     }
 
-//    public void LaunchNewActivity (View currentView) {
-//        Intent i = new Intent(this, NewActivity.class);
-//    }
+    public void LaunchNewActivity (View currentView) {
+        Intent newActivityIntent = new Intent(this, NewActivity.class);
+        startActivity(newActivityIntent);
+    }
 }
