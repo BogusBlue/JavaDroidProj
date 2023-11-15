@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="356dp"
-        android:text="Hello World!"
+        android:text="@string/main_activity_textview"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,7 +24,7 @@
         android:layout_marginEnd="6dp"
         android:layout_marginBottom="19dp"
         android:onClick="ProcessUserText"
-        android:text="Search"
+        android:text="@string/main_activity_buttontext"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +47,7 @@
             android:id="@+id/userInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="hint" />
+            android:hint="@string/main_activity_textinputhint" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -57,7 +57,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:onClick="LaunchNewActivity"
-        android:text="LaunchNewActivity"
+        android:text="@string/main_activity_button2text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

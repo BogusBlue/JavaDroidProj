@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">JavaDroid</string>
+    <string name="main_activity_textview">Hello World!</string>
+    <string name="main_activity_buttontext">Search</string>
+    <string name="main_activity_textinputhint">hint</string>
+    <string name="main_activity_button2text">LaunchNewActivity</string>
 </resources>
