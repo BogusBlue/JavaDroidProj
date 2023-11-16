@@ -4,4 +4,5 @@
     <string name="main_activity_buttontext">Search</string>
     <string name="main_activity_textinputhint">hint</string>
     <string name="main_activity_button2text">LaunchNewActivity</string>
+    <string name="toolbar_homebuttontext">Home</string>
 </resources>
