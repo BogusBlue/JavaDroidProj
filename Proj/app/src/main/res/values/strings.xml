@@ -5,4 +5,7 @@
     <string name="main_activity_textinputhint">hint</string>
     <string name="main_activity_button2text">LaunchNewActivity</string>
     <string name="toolbar_homebuttontext">Home</string>
+    <string name="GoL_startstopbuttontext">Start/Stop</string>
+    <string name="GoL_toptext">Conway\'s Game of Life</string>
+    <string name="GoL_cellbuttontext"> </string>
 </resources>

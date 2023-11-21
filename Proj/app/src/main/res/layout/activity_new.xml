@@ -6,13 +6,690 @@
     android:layout_height="match_parent"
     tools:context=".NewActivity">
 
+    <!--    <include-->
+    <!--        android:id="@+id/toolbar"-->
+    <!--        layout="@layout/toolbar"-->
+    <!--        android:text="@string/app_name" />-->
+
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NewActivity"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="8dp"
+        android:text="@string/GoL_toptext"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/GoL_StartStop_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/GoL_startstopbuttontext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/GoL_StartStop_Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/cell11"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell12"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell13"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell14"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell15"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell16"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell17"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell18"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell19"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell110"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/cell21"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell22"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell23"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell24"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell25"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell26"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell27"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell28"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell29"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell210"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/cell31"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell32"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell33"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell34"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell35"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell36"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell37"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell38"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell39"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell310"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/cell41"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell42"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell43"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell44"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell45"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell46"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell47"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell48"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell49"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell410"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/cell51"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell52"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell53"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell54"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell55"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell56"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell57"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell58"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell59"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell510"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/cell61"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell62"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell63"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell64"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell65"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell66"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell67"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell68"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell69"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell610"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/cell71"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell72"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell73"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell74"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell75"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell76"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell77"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell78"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell79"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell710"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/cell81"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell82"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell83"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell84"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell85"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell86"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell87"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell88"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell89"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell810"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/cell91"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell92"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell93"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell94"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell95"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell96"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell97"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell98"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell99"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell910"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/cell101"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell102"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell103"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell104"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell105"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell106"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell107"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell108"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell109"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+
+            <Button
+                android:id="@+id/cell1010"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="@string/GoL_cellbuttontext" />
+        </TableRow>
+    </TableLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
