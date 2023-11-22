@@ -27,12 +27,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:onClick="processStep"
         android:text="@string/GoL_startstopbuttontext"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TableLayout
+        android:id="@+id/GoL_Table"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
@@ -41,653 +43,872 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2">
 
+        <!--        <TableRow-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent" >-->
+
+        <!--            <butonset>-->
+        <!--                <start>1</start>-->
+        <!--            </butonset>-->
+        <!--        </TableRow>-->
+
         <TableRow
+            android:id="@+id/GoL_Row1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/cell11"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell12"
+                 android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell13"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell14"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell15"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell16"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell17"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell18"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell19"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell110"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
         </TableRow>
 
         <TableRow
+            android:id="@+id/GoL_Row2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/cell21"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell22"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell23"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell24"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell25"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell26"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell27"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell28"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell29"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell210"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
         </TableRow>
 
         <TableRow
+            android:id="@+id/GoL_Row3"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/cell31"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell32"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell33"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell34"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell35"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell36"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell37"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell38"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell39"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell310"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
         </TableRow>
 
         <TableRow
+            android:id="@+id/GoL_Row4"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/cell41"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell42"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell43"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell44"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell45"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell46"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell47"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell48"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell49"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell410"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
         </TableRow>
 
         <TableRow
+            android:id="@+id/GoL_Row5"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/cell51"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell52"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell53"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell54"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell55"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell56"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell57"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell58"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell59"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell510"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
         </TableRow>
 
         <TableRow
+            android:id="@+id/GoL_Row6"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/cell61"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell62"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell63"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell64"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell65"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell66"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell67"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell68"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell69"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell610"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
         </TableRow>
 
         <TableRow
+            android:id="@+id/GoL_Row7"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/cell71"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell72"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell73"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell74"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell75"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell76"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell77"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell78"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell79"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell710"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
         </TableRow>
 
         <TableRow
+            android:id="@+id/GoL_Row8"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/cell81"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell82"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell83"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell84"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell85"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell86"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell87"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell88"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell89"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell810"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
         </TableRow>
 
         <TableRow
+            android:id="@+id/GoL_Row9"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/cell91"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell92"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell93"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell94"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell95"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell96"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell97"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell98"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell99"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell910"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
         </TableRow>
 
         <TableRow
+            android:id="@+id/GoL_Row10"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/cell101"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell102"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell103"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell104"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell105"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell106"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell107"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell108"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell109"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
 
             <Button
                 android:id="@+id/cell1010"
+                android:tag="dead"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
+                android:onClick="cellClicked"
                 android:text="@string/GoL_cellbuttontext" />
         </TableRow>
     </TableLayout>
