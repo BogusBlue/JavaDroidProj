@@ -4,6 +4,7 @@
         <!-- Customize your light theme here. -->
 <!--        <item name="colorPrimary">@color/design_default_color_primary</item>-->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        background
     </style>
 
     <style name="Theme.JavaDroid" parent="Base.Theme.JavaDroid" />
